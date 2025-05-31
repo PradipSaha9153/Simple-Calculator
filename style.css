@@ -40,6 +40,10 @@ button {
     font-size: 20px;
     box-shadow: -8px -8px 15px #e1ffff1a;
     cursor: pointer;
+
+    &:hover {
+        box-shadow: -8px -8px 15px #00ffff63;
+    }
 }
 
 input {
@@ -60,12 +64,21 @@ input {
 
 .equalBT {
     background-color: #ff8000;
+    &:hover {
+        box-shadow: -8px -8px 15px #f1dd007b;
+    }
 }
 
 .operator {
     color: rgb(0, 255, 115);
+    &:hover {
+        box-shadow: -8px -8px 15px #00ff4c75;
+    }
 }
 
 .delBT {
     color: #ff5454;
+    &:hover {
+        box-shadow: -8px -8px 15px #f3484899;
+    }
 }
