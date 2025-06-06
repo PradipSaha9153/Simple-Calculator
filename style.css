@@ -17,16 +17,16 @@ body {
     align-items: center;
     justify-content: center;
     background: linear-gradient(45deg,
-    #0a0a0a, #3a4452);
+    #030043, #2257a1);
 }
 
 .container {
     height: 35rem;
-    border: 1px solid #717377;
+    border: 1px solid #ffffff;
     padding: 20px;
     border-radius: 16px;
     background: transparent;
-    box-shadow: 0px 3px 15px #71737780;
+    box-shadow: 0px 3px 15px #fbcd289f;
 }
 
 button {
@@ -38,11 +38,14 @@ button {
     background: transparent;
     color: #ffffff;
     font-size: 20px;
-    box-shadow: -8px -8px 15px #e1ffff1a;
+    box-shadow: -8px -8px 15px #e1ffff47;
     cursor: pointer;
 
     &:hover {
-        box-shadow: -8px -8px 15px #00ffff63;
+        box-shadow: -8px -8px 15px #00ffffa6;
+    }
+    &:active {
+        background-color: transparent;
     }
 }
 
@@ -65,20 +68,20 @@ input {
 .equalBT {
     background-color: #ff8000;
     &:hover {
-        box-shadow: -8px -8px 15px #f1dd007b;
+        box-shadow: -8px -8px 15px #ff9900c2;
     }
 }
 
 .operator {
     color: rgb(0, 255, 115);
     &:hover {
-        box-shadow: -8px -8px 15px #00ff4c75;
+        box-shadow: -8px -8px 15px #00ff4cb6;
     }
 }
 
 .delBT {
     color: #ff5454;
     &:hover {
-        box-shadow: -8px -8px 15px #f3484899;
+        box-shadow: -8px -8px 15px #f34848b5;
     }
 }
